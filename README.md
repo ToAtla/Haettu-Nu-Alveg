@@ -5,13 +5,19 @@ Forritað 2016.
 
 English below.
 
+## Keyrsla
 
-## Design ideas
-![Hvað appið gerir](img/hvad.png)
-![Hvað appið gerir](img/hvad.png)
-![Hvað appið gerir](img/hvad.png)
-![Hvað appið gerir](img/hvad.png)
+Keyrist á einfaldan máta í Android Studio
 
+## Hnotskurn hugmyndar
+<p align="center">
+	<img src="img/velkomin.png" width="350" title="Hæ">
+	<img src="img/hvad.png" width="350" title="Hvað appið gerir">
+	<img src="img/hvernig.png" width="350" title="Hvernig appið gerir það">
+	<img src="img/trix.png" width="350" title="Trixið">
+	<img src="img/mynstur.png" width="350" title="Innsetning mynsturs">
+	<img src="img/timi.png" width="350" title="Countdown timi">
+</p>
 
 
 

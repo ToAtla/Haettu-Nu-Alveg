@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.allikalli.bagg.OpnunActivity"
+    android:background="#9a39c1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="___________________________________________________"
+        android:id="@+id/textView11"
+        android:layout_marginTop="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="253"
+        android:id="@+id/textNumScoreScoreScreen"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textHitsAvoidedScoreScreen"
+        android:id="@+id/textHitsAvoidedScoreScreen"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textNumHitsAvoided"
+        android:id="@+id/textNumHitsAvoided"
+        android:layout_alignTop="@+id/textHitsAvoidedScoreScreen"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textMoneySaved"
+        android:id="@+id/textMoneySaved"
+        android:layout_below="@+id/textHitsAvoidedScoreScreen"
+        android:layout_alignLeft="@+id/textHitsAvoidedScoreScreen"
+        android:layout_alignStart="@+id/textHitsAvoidedScoreScreen"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textNumMoneySaved"
+        android:id="@+id/textNumMoneySaved"
+        android:layout_alignTop="@+id/textMoneySaved"
+        android:layout_alignRight="@+id/textNumHitsAvoided"
+        android:layout_alignEnd="@+id/textNumHitsAvoided" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textCurrentStreak"
+        android:id="@+id/textCurrentStreak"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textMoneySaved"
+        android:layout_alignStart="@+id/textMoneySaved" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textNumCurrentStreak"
+        android:id="@+id/textNumCurrentStreak"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textNumMoneySaved"
+        android:layout_alignEnd="@+id/textNumMoneySaved" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textScoreScoreScreen"
+        android:id="@+id/textScoreScoreScreen"
+        android:layout_alignBottom="@+id/textNumScoreScoreScreen"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/buttonGoBackScoreScreen"
+        android:layout_alignLeft="@+id/textCurrentStreak"
+        android:layout_alignStart="@+id/textCurrentStreak"
+        android:layout_toStartOf="@+id/textNumHitsAvoided"
+        android:layout_alignRight="@+id/textNumCurrentStreak"
+        android:layout_alignEnd="@+id/textNumCurrentStreak"
+        android:progress="40" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textProgressScoreScreen"
+        android:id="@+id/textProgressScoreScreen"
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonGoBack"
+        android:id="@+id/buttonGoBackScoreScreen"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="tilMain" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textProgressPercentage"
+        android:id="@+id/textProgressPercentage"
+        android:layout_above="@+id/buttonGoBackScoreScreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonResetScoreScreen"
+        android:id="@+id/buttonResetScoreScreen"
+        android:layout_above="@+id/textProgressScoreScreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:onClick="reset" />
+
+</RelativeLayout>

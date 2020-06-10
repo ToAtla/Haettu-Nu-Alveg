@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.allikalli.bagg.OpnunActivity"
+    android:background="#9a39c1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/shield"
+        android:contentDescription="@string/shieldimagedescription"
+        android:layout_marginBottom="91dp"
+        android:layout_above="@+id/textCountdownMain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textCountdownMain"
+        android:id="@+id/textCountdownMain"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textScoreProgressMain"
+        android:id="@+id/textScoreMain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:onClick="tilScore" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageRelapseFrownMain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/frown"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:onClick="tilRelapse" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonHadSomeMain"
+        android:id="@+id/buttonMainScreenHadSome"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="#595353"
+        android:onClick="haveSome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="+00:00:00"
+        android:id="@+id/textUpptalningMain"
+        android:layout_above="@+id/buttonMainScreenHadSome"
+        android:layout_alignRight="@+id/buttonMainScreenHadSome"
+        android:layout_alignEnd="@+id/buttonMainScreenHadSome"
+        android:layout_marginBottom="25dp"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/debugLNR"
+        android:layout_below="@+id/textUpptalningMain"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/debugCountdown"
+        android:layout_below="@+id/textUpptalningMain"
+        android:layout_alignRight="@+id/textScoreMain"
+        android:layout_alignEnd="@+id/textScoreMain"
+        android:visibility="gone" />
+
+</RelativeLayout>

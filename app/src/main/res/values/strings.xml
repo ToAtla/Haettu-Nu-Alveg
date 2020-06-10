@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Bagg</string>
+    <string name="shieldimagedescription">orangeshield</string>
+    <string name="buttonBegin">Begin</string>
+    <string name="startScreenText2">You\'re on your way to a nicotine-free lifestyle</string>
+    <string name="startScreenText1">Welcome</string>
+    <string name="infoScreenText1">Let\'s get to know you a little better...</string>
+    <string name="infoScreenButton">Let\'s go!</string>
+    <string name="infoScreenText2">How many hits do you use per day?</string>
+    <string name="infoScreenText3">How many days does it take to finish a can?</string>
+    <string name="infoScreenText4">For which amount of years?</string>
+    <string name="infoScreenText5">Price of a single can:</string>
+    <string name="textCountdownMain">02:53:32</string>
+    <string name="textScoreMainScreen">573</string>
+    <string name="buttonHadSomeMain">Had some</string>
+    <string name="textTitleRelapseScreen">Did you have a relapse?</string>
+    <string name="textQuoteRelapseScreen">Get up but don\'t ever give up</string>
+    <string name="textAuthorReplaseScreen">- Muhammed Ali</string>
+    <string name="buttonGoBack">Go Back</string>
+    <string name="textScoreScoreScreen">Score</string>
+    <string name="textProgressScoreScreen">Progress to detoxication</string>
+    <string name="textHitsAvoidedScoreScreen">Hits avoided</string>
+    <string name="textNumHitsAvoided">4</string>
+    <string name="textMoneySaved">Money Saved</string>
+    <string name="textNumMoneySaved">2469</string>
+    <string name="textCurrentStreak">Current Streak</string>
+    <string name="textNumCurrentStreak">4 days</string>
+    <string name="textProgressPercentage">40%</string>
+    <string name="buttonResetScoreScreen">Reset All Data</string>
+    <string name="toastMainScreenWait">Wait for the time to finish</string>
+    <string name="toastRelapseMainScreen">Your timer has been reset from the last hit</string>
+    <string name="toastNegativeValuesInfoScreen">Neither Years or price can be negative values</string>
+    <string name="textDaysStreakScore">" days"</string>
+    <string name="textScoreProgressMain"><![CDATA[Score&Progress]]></string>
+</resources>
